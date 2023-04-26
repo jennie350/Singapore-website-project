@@ -94,9 +94,8 @@ footer ul{
 }
 
 main {
-    background-color: white;
+    margin-bottom: 50px;
 }
-
 main img {
     max-width: 100%;
 
@@ -129,6 +128,24 @@ color: #272044;
 margin: 0;
 }
 
+main h4{
+ font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 36px;
+color: #272044;
+margin: 0;
+
+}
+
+main h5{
+    font-style: normal;
+font-weight: 700;
+font-size: 13px;
+color: #272044;
+margin: 0;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -143,11 +160,44 @@ margin: 0;
 .grid-main {
     grid-template-columns: 1fr 1fr;
     padding: 100px 100px;
+   background-color: white;
+}
+
+.grid-cafes {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 100px;
 }
 
 .footer-grid {
     grid-template-columns: 1fr 2fr 2fr;
     padding: 100px 10px 100px 50px;
+}
+
+
+.cafe-title {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.cafe-card{
+    background-color: white;
+    box-shadow: 20px 20px 40px rgba(198, 198, 198, 0.2);
+}
+
+.cafe-card-info {
+    padding: 26px 32px;
+}
+
+.btn {
+padding: 16px 32px;
+margin: 20px 0;
+background: #462CB3;
+color: white;
+text-decoration: none;
+display: block;
+text-align: center;
+margin-bottom: 20px;
 }
 
 
