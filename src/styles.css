@@ -59,6 +59,7 @@ footer{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url("../images/Singapore-footer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 footer h3{
@@ -186,6 +187,10 @@ margin-bottom: 50px;
 
 }
 
+.supertree-img {
+    filter:  sepia(16%);
+}
+
 .cafe-card{
     background-color: white;
     box-shadow: 20px 20px 40px rgba(198, 198, 198, 0.2);
@@ -245,6 +250,7 @@ header a{
 
     footer{
         font-size: 10px;
+
     }
 .grid {
     grid-template-columns: 1fr;
