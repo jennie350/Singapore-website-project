@@ -163,9 +163,12 @@ margin: 0;
 
 .grid-cafes {
     grid-template-columns: 1fr 1fr 1fr;
-margin-top: 100px;
-margin-bottom: 50px;
+    padding: 50px 100px;
 
+}
+
+.img-map-grid {
+    grid-template-columns: 1fr 1fr;
 }
 
 .gallery-grid {
@@ -196,10 +199,11 @@ margin-bottom: 50px;
     margin: 0;
 }
 
-.map-embed {
-    padding-bottom: 10px;
+.map-embed{
+        width: 100%;
+aspect-ratio: 1/1;
+padding: none;
 }
-
 
 .btn {
 padding: 16px 32px;
